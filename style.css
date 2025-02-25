@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "EB Garamond", serif;
+}
+
+.box1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.box1__desc{
+    color: grey;
+}
+
+.box2-dish1,.box2-dish2,.box2-dish3,.box2-dish4{
+    display: inline-block;
+    background-color: white;
+    border: solid black 2px;
+}
+
+.box2-dish1__image,.box2-dish2__image,.box2-dish3__image,.box2-dish4__image{
+    width: 150px;
+    height: 250px;
+}
+
+.box2-dish1__title,.box2-dish2__title,.box2-dish3__title,.box2-dish4__title{
+    width: 150px;
+    height: 30px;
+}
+
+.box2-dish1__desc,.box2-dish2__desc,.box2-dish3__desc,.box2-dish4__desc{
+    width: 150px;
+    height: 30px;
+}
+.box2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box2-dish1__button,.box2-dish2__button,.box2-dish3__button,.box2-dish4__button{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.contact-form{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contact-form__title{
+    text-align: center;
+}
+
+.contact-form__content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form__button{
+    background-color: yellow;
+    color: black;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
